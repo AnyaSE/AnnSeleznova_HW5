@@ -18,7 +18,7 @@ console.log(studentsArray);
 
 console.log(studentsArray.includes('Vova'));
 
-const studentsArrayNew = studentsArray.slice(4, 8);
+const studentsArrayNew = studentsArray.slice(3, 7);
 
 console.log(studentsArrayNew);
 
