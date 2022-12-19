@@ -2,7 +2,11 @@ const studentsArray = ['Olga', 'Paul', 'Michael', 'John', 'Bob', 'Rob', 'Kevin',
 
 studentsArray.push('Vova', 'Alfred');
 
+console.log(studentsArray);
+
 studentsArray.unshift('Prannay','Vijay');
+
+console.log(studentsArray);
 
 studentsArray.pop ();
 
@@ -14,7 +18,7 @@ console.log(studentsArray);
 
 console.log(studentsArray.includes('Vova'));
 
-const studentsArrayNew = studentsArray.slice(4,8);
+const studentsArrayNew = studentsArray.slice(4, 8);
 
 console.log(studentsArrayNew);
 
@@ -24,13 +28,11 @@ const studentsArrayAll = studentsArrayNew.concat(studentsArrayUnique);
 
 console.log(studentsArrayAll);
 
-studentsArrayAll.splice(3,1);
+studentsArrayAll.splice(3, 1);
 
 console.log(studentsArrayAll);
 
-studentsArrayAll.splice(5,1,'Ivan');
-
-console.log(studentsArrayAll);
+studentsArrayAll.splice(5, 1, 'Ivan');
 
 console.log(studentsArrayAll.join(' - '));
 
